@@ -5,7 +5,6 @@ JavaScript Built-in Functions
     Mengurutkan elemen dari array.
     let fruits = ["Banana", "Orange", "Apple", "Mango"];
     fruits.sort();
-
     //output: Apple,Banana,Mango,Orange
 
 2. map()

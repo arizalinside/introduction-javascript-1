@@ -9,7 +9,6 @@ let name = [
 function searchName(searchWord, limit, callback) {
     let words = name.filter(names => names.includes(searchWord))
     let limits = words.slice(0, limit)
-    callback(words)
     callback(limits)
 }
 
