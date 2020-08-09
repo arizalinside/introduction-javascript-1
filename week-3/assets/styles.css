@@ -1,0 +1,150 @@
+@font-face {
+  font-family: Airbnb;
+  src: url(./font/AirbnbCerealMedium.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Airbnb;
+}
+
+.col-md-8 {
+  height: 75px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.ham-menu {
+  position: relative;
+  left: 10px;
+  cursor: pointer;
+}
+
+.col-md-4 {
+  height: 75px;
+  background: #ffffff;
+  font-size: 29px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-info {
+  font-size: 15px;
+  border-radius: 50%;
+}
+
+.side-left {
+  margin: 2em 0;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.col-md-7 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(190, 195, 202, 0.3);
+}
+
+.card {
+  margin: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card-body {
+  padding: 10px 16px;
+}
+
+.side-right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.food-icon {
+  padding: 5em 4em 0 4em;
+}
+
+.modal-header {
+  border-bottom: 0;
+}
+
+.modal-footer {
+  border-top: 0;
+}
+
+.form-item {
+  height: 60px;
+}
+
+.form-control {
+  background: #ffffff;
+  border: 1px solid #cecece;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+
+.dropdown-toggle::after {
+  color: black;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+.button {
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .col-md-7 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .col-md-7 .card {
+    width: 118px !important;
+  }
+
+  .side-left {
+    margin: 15px 24px;
+  }
+
+  .food-icon {
+    padding-top: 0px;
+  }
+
+  .side-right h5 {
+    font-size: 17px;
+    padding-bottom: 2em;
+  }
+}
+
+@media (max-width: 1200px) {
+  .col-md-7 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1280px) {
+  .col-md-7 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .card {
+    width: 11rem !important;
+  }
+}

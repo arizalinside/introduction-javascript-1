@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <title>Food items</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row" style="position: relative;">
+        <div class="col-md-8">
+          <div class="col-md-1">
+            <img
+              class="ham-menu"
+              src="assets/image/icons/menu.png"
+              alt="menu"
+            />
+          </div>
+          <div class="col-md-10" style="font-size: 29px;">Food Items</div>
+          <div class="col-md-1">
+            <img
+              class="magnifying-glass"
+              src="assets/image/icons/magnifying-glass.png"
+              alt="magnifying"
+              style="cursor: pointer;"
+            />
+          </div>
+        </div>
+        <div
+          class="col-md-4"
+          style="box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.25);"
+        >
+          Cart &nbsp;
+          <span class="badge bg-info">0</span>
+        </div>
+      </div>
+      <div class="row">
+        <div
+          class="col-md-1"
+          style="
+            background: #ffffff;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+            text-align: center;
+          "
+        >
+          <a href="index.html">
+            <img class="side-left" src="./assets/image/icons/fork.png" />
+          </a>
+          <a href="history.html">
+            <img
+              class="side-left"
+              src="./assets/image/icons/clipboard.png"
+              href=""
+          /></a>
+          <img
+            class="side-left"
+            data-toggle="modal"
+            data-target="#add-item"
+            src="./assets/image/icons/add.png"
+          />
+        </div>
+        <div class="col-md-7">
+          <div class="card" style="width: 13rem;">
+            <img
+              src="./assets/image/fnb/jeremy-ricketts-6ZnhM-xBpos-unsplash.png"
+              class="card-img-top"
+              alt="espresso"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Espresso <br />
+                <b>Rp. 10.000</b>
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 13rem;">
+            <img
+              src="./assets/image/fnb/bear.png"
+              class="card-img-top"
+              alt="coffe-latte"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Coffee Latte <br />
+                <b>Rp. 15.000</b>
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 13rem;">
+            <img
+              src="./assets/image/fnb/firdaus-roslan-pN769u0KHNA-unsplash.png"
+              class="card-img-top"
+              alt="cappucino"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Cappucino <br />
+                <b>Rp. 5.000</b>
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 13rem;">
+            <img
+              src="./assets/image/fnb/redvelvet.png"
+              class="card-img-top"
+              alt="cappucino"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Red Velvet Latte <br />
+                <b>Rp. 33.000</b>
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 13rem;">
+            <img
+              src="./assets/image/fnb/chocorum.png"
+              class="card-img-top"
+              alt="cappucino"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Choco Rum <br />
+                <b>Rp. 28.000</b>
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 13rem;">
+            <img
+              src="./assets/image/fnb/blackforest.png"
+              class="card-img-top"
+              alt="cappucino"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Black Forest <br />
+                <b>Rp. 30.000</b>
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 13rem;">
+            <img
+              src="./assets/image/fnb/chickenkatsu.png"
+              class="card-img-top"
+              alt="cappucino"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Chicken Katsu Dabu-dabu <br />
+                <b>Rp. 60.000</b>
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 13rem;">
+            <img
+              src="./assets/image/fnb/salmon.png"
+              class="card-img-top"
+              alt="cappucino"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Salmon Truffle Teriyaki <br />
+                <b>Rp. 60.000</b>
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 13rem;">
+            <img
+              src="./assets/image/fnb/wiener.png"
+              class="card-img-top"
+              alt="cappucino"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Wiener Schnitzel <br />
+                <b>Rp. 69.000</b>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 side-right">
+          <img
+            class="food-icon"
+            src="./assets/image/fnb/food-and-restaurant.png"
+          />
+          <h3>Your cart is empty</h3>
+          <h5>Please add some items from the menu</h5>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="add-item"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">
+              Add Item
+            </h4>
+          </div>
+          <div class="modal-body">
+            <div class="form-item">
+              <p
+                style="
+                  display: flex;
+                  position: relative;
+                  top: 6px;
+                  font-weight: bold;
+                  left: 5px;
+                "
+              >
+                Name
+              </p>
+              <input
+                class="form-control"
+                type="text"
+                aria-label="deafult input example"
+                style="
+                  display: flex;
+                  position: relative;
+                  left: 100px;
+                  bottom: 40px;
+                  width: 75%;
+                "
+              />
+            </div>
+            <div class="form-item">
+              <p
+                style="
+                  display: flex;
+                  position: relative;
+                  top: 6px;
+                  font-weight: bold;
+                  left: 5px;
+                "
+              >
+                Image
+              </p>
+              <input
+                class="form-control"
+                type="text"
+                aria-label="deafult input example"
+                style="
+                  display: flex;
+                  position: relative;
+                  left: 100px;
+                  bottom: 40px;
+                  width: 75%;
+                "
+              />
+            </div>
+            <div class="form-item">
+              <p
+                style="
+                  display: flex;
+                  position: relative;
+                  top: 6px;
+                  font-weight: bold;
+                  left: 5px;
+                "
+              >
+                Price
+              </p>
+              <input
+                class="form-control"
+                type="text"
+                aria-label="deafult input example"
+                style="
+                  display: flex;
+                  position: relative;
+                  left: 100px;
+                  bottom: 40px;
+                  width: 45%;
+                "
+              />
+            </div>
+            <div class="form-item">
+              <p
+                style="
+                  display: flex;
+                  position: relative;
+                  top: 6px;
+                  font-weight: bold;
+                  left: 5px;
+                "
+              >
+                Category
+              </p>
+            </div>
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-expanded="false"
+                style="
+                  display: flex;
+                  position: relative;
+                  left: 100px;
+                  bottom: 60px;
+                  width: 30%;
+                  font-family: Airbnb;
+                  color: #cecece;
+                  background: #ffffff;
+                  border: 1px solid #cecece;
+                  box-sizing: border-box;
+                  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+                  border-radius: 6px;
+                "
+              >
+                Category
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              style="background: #f24f8a; width: 20%; border-color: #f24f8a;"
+            >
+              Cancel
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              style="background: #57cad5; width: 20%; border-color: #57cad5;"
+            >
+              Add
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

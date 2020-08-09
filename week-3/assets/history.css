@@ -1,0 +1,165 @@
+@font-face {
+  font-family: Airbnb;
+  src: url(./font/AirbnbCerealMedium.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Airbnb;
+}
+
+/* Header */
+
+.col-md-12 {
+  position: relative;
+  height: 75px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  display: flex;
+}
+
+.ham-menu {
+  position: relative;
+  left: 28px;
+  top: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.history-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+/* Left Sidebar */
+
+.side-left {
+  margin: 2em 0;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Main page */
+
+.rectangle {
+  position: relative;
+  float: left;
+  width: 350px;
+  height: 175px;
+  margin: 30px 25px;
+  border-radius: 10px;
+}
+
+.text-rectangle p {
+  position: relative;
+  top: 43px;
+  left: 35px;
+}
+
+.rectangle-chart {
+  position: relative;
+  margin-bottom: 50px;
+  top: 250px;
+  left: 30px;
+  width: 95%;
+  height: 422px;
+  background: #ffffff;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+button {
+  position: relative;
+  float: right;
+  bottom: 220px;
+  right: 20px;
+  width: 95px;
+  height: 24px;
+}
+
+.dropdown-toggle::after {
+  position: relative;
+  left: 27px;
+  bottom: 4px;
+}
+
+.table {
+  position: absolute;
+  top: 4em;
+}
+
+.table tr .col {
+  margin: 100px;
+}
+
+.modal-header {
+  border-bottom: 0;
+}
+
+.modal-footer {
+  border-top: 0;
+}
+
+.form-item {
+  height: 60px;
+}
+
+.form-control {
+  background: #ffffff;
+  border: 1px solid #cecece;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+
+.modal-content .dropdown-toggle::after {
+  color: black;
+  position: relative;
+  top: 10px;
+  right: 10px;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.btn-add {
+  position: relative;
+  top: 0;
+  height: 40px;
+}
+
+@media (max-width: 576px) {
+  .col-md-12 .history-header {
+    position: relative;
+    left: 3em;
+  }
+
+  .side1 {
+    height: 5rem;
+  }
+
+  .side-left {
+    margin: 13px 20px;
+  }
+
+  .rectangle {
+    position: relative;
+    right: 20px;
+  }
+
+  .rectangle-chart {
+    position: relative;
+    top: 47em;
+  }
+
+  .chart-history {
+    width: 20em !important;
+  }
+}
